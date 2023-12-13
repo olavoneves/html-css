@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table {
+            border: 1.5px solid black;
+            border-collapse: collapse;
+            width: 600px;
+            margin: 50px auto;
+            box-shadow: 2px 2px 10px black;
+        }
+
+        th {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+
+        .diferente {
+            text-align: center;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Boletim</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota 01</th>
+                <th scope="col">Nota 02</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" class="diferente" scope="rowgroup">Exatas</th>
+                <td>Matemática</td>
+                <td>7.0</td>
+                <td>8.5</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>8.0</td>
+                <td>8.0</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>7.5</td>
+                <td>9.0</td>
+                <td>8.25</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>9.0</td>
+                <td>8.5</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="row">Média Exatas</th>
+                <th scope="row">8.3</th>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th rowspan="2" class="diferente" scope="rowgroup">Humanas</th>
+                <td>História</td>
+                <td>7.25</td>
+                <td>8.5</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>8.0</td>
+                <td>8.5</td>
+                <td>8.5</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th colspan="4" scope="row">Média Humanas</th>
+                <th scope="row">8.25</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
