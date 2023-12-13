@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Mesclada</title>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            background-color: rgb(70, 28, 108);
+            position: relative;
+        }
+
+        h1 {
+            background-color: rgb(120, 67, 169);
+            color: white;
+            font-weight: bold;
+            margin: 0px;
+            padding: 30px;
+            border-radius: 0px 0px 20px 20px;
+            position: sticky;
+            top: -1px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.757);
+        }
+
+        p {
+            background-color: white;
+            margin: 0px 50px 50px 50px;
+            padding: 40px;
+            text-indent: 30px;
+            border-radius: 0px 0px 20px 20px;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 0px auto 30px auto;
+            padding: 0px;
+            width: 300px;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        caption {
+            background-color: lightgray;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        td {
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Tabela Mesclada</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, sapiente. At distinctio voluptates nemo eveniet ipsam saepe fugit. Officiis, id. Vel, molestias? Fugit minima in iusto et quibusdam officia deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente est ipsa veritatis repellendus animi officiis sint molestias, tempora error rem soluta autem architecto consequatur consectetur illo possimus, aperiam sed distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dicta eaque, rerum voluptas molestias harum eligendi aspernatur porro. Pariatur inventore blanditiis commodi necessitatibus cum tempora nemo suscipit earum neque quis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, sapiente. At distinctio voluptates nemo eveniet ipsam saepe fugit. Officiis, id. Vel, molestias? Fugit minima in iusto et quibusdam officia deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente est ipsa veritatis repellendus animi officiis sint molestias, tempora error rem soluta autem architecto consequatur consectetur illo possimus, aperiam sed distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dicta eaque, rerum voluptas molestias harum eligendi aspernatur porro. Pariatur inventore blanditiis commodi necessitatibus cum tempora nemo suscipit earum neque quis.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, sapiente. At distinctio voluptates nemo eveniet ipsam saepe fugit. Officiis, id. Vel, molestias? Fugit minima in iusto et quibusdam officia deleniti. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente est ipsa veritatis repellendus animi officiis sint molestias, tempora error rem soluta autem architecto consequatur consectetur illo possimus, aperiam sed distinctio? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim dicta eaque, rerum voluptas molestias harum eligendi aspernatur porro. Pariatur inventore blanditiis commodi necessitatibus cum tempora nemo suscipit earum neque quis.</p>
+
+    
+        <table>
+            <caption>Mesclagem</caption>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td rowspan="2">3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="3">8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10</td>
+                    <td colspan="2">11</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>14</td>
+                    <td>15</td>
+                </tr>
+            </tbody>
+        </table>
+   
+</body>
+</html>
