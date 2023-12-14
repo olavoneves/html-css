@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            margin: 40px auto;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 5px;
+        }
+
+        th,td {
+            border: 1.2px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .destaque {
+            background-color: lightgray;
+        }
+
+        .cnome {
+            background-color: rgb(106, 219, 219);
+        }
+
+        .csexo, .cprof {
+            background-color: rgb(154, 118, 187);
+        }
+
+        .cidade {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Rose Braga</td>
+            <td>Feminino</td>
+            <td>25</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Gustavo Poeta de Machado</td>
+            <td>Masculino</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Marcos de Asunssão</td>
+            <td>Masculino</td>
+            <td>31</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Roberto Cayres de Oliveira</td>
+            <td>Masculino</td>
+            <td>33</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Dlougas Borges Veigh</td>
+            <td>Masculino</td>
+            <td>22</td>
+            <td>Treinador</td>
+        </tr>
+        <tr>
+            <td>Ranha Kobe</td>
+            <td>Feminino</td>
+            <td>19</td>
+            <td>Nutricionista</td>
+        </tr>
+    </table>
+</body>
+</html>
