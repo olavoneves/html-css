@@ -1,1 +1,111 @@
 @charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(147, 112, 181);
+}
+
+header {
+    background-color: rgb(86, 59, 110);
+    width: 95vw;
+    border-radius: 20px 20px 0px 0px;
+    margin: 5px auto auto auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 20px 15px 15px 15px;
+}
+
+span#burguer {
+    color: white;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    margin: auto;
+}
+
+span#burguer:hover {
+    background-color: rgb(108, 82, 135);
+    color: white;
+    margin: auto;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(147, 112, 181);
+    color: lightgray;
+    font-weight: bold;
+    border-top: 2px solid rgb(86, 59, 110);
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(108, 82, 135);
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: 30px auto auto auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.308);
+}
+
+h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(86, 59, 110);
+    width: 90vw;
+    margin: 10px auto 10px auto;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.338);
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer > h3 > a {
+    color: rgb(173, 134, 211);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer > h3 > a:hover {
+    background-color: rgb(54, 29, 76);
+    color: white;
+    padding: 10px;
+    border-radius: 5px 0px;
+}
