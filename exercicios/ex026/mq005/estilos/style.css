@@ -13,8 +13,9 @@ body {
 header {
     background-color: rgb(86, 59, 110);
     width: 95vw;
-    border-radius: 20px 20px 0px 0px;
-    margin: 5px auto auto auto;
+    border-radius: 20px 0px 0px 0px;
+    margin: 10px auto auto auto;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.308);
 }
 
 h1 {
@@ -33,9 +34,11 @@ span#burguer {
 }
 
 span#burguer:hover {
-    background-color: rgb(108, 82, 135);
+    background-color: rgb(147, 112, 181);
     color: white;
     margin: auto;
+    border: 1px solid rgb(86, 59, 110);
+    transition-duration: 0.5s;
 }
 
 menu {
@@ -53,17 +56,18 @@ menu > ul > li > a {
     background-color: rgb(147, 112, 181);
     color: lightgray;
     font-weight: bold;
-    border-top: 2px solid rgb(86, 59, 110);
+    border: 1px solid rgb(86, 59, 110);
 }
 
 menu > ul > li > a:hover {
     background-color: rgb(108, 82, 135);
+    transition-duration: 1s;
 }
 
 main {
     width: 90vw;
     background-color: white;
-    margin: 30px auto auto auto;
+    margin: 10px auto auto auto;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.308);
@@ -97,7 +101,7 @@ h3 {
 }
 
 footer > h3 > a {
-    color: rgb(173, 134, 211);
+    color: rgb(192, 164, 220);
     text-decoration: none;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
