@@ -7,8 +7,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="Gartoon-Team-Gartoon-Devices-Media-optical-dvd.512.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>História do Futebol Paulista</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -47,6 +48,14 @@
                 aba.style.display = 'none'
             } else {
                 aba.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                aba.style.display = 'block'
+            } else {
+                aba.style.display = 'none'
             }
         }
     </script>
